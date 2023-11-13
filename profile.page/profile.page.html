@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.style.css">
+    <title>FlexNav</title>
+</head>
+
+<body>
+    <div class="contain">
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <li><button onclick="message()" class="btn">Sign Out</button></li>
+        </div>
+        <div class="body">
+            <div class="left-col">
+                <div class="profile">
+                    <div class="left-top-half">
+                    </div>
+                    <div class="left-bottom-half">
+                        <h1 class="name">Joan Arc</h1>
+                        <div class="mapmarker spacing">
+                            <img src="map-marker.png" alt="Map Marker">
+                            <p class="location">France</p></img>
+                        </div>
+                        <p class="job-title">Developer | Engineer | Problem Solver
+                        <p>
+                        <p>Master of shadows and the Internet</p>
+                        <div class="gear spacing">
+                            <img src="gear.png" alt="Gear Icon"><a href="#">edit profile</a></img>
+                        </div>
+                    </div>
+                    <div class="profilepic">
+                        <img anne src="anne-s.jpg" alt="Headshot"></img>
+                    </div>
+                </div>
+                <div class="left-bottom-row">
+                    <div class="education">
+                        <p>Education</p>
+                    </div>
+                    <div class="bottom-education">
+                        <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                        <p>Dec 2019 - March 2020</p>
+                        <p>Triple Black Belt</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="right-col">
+                    <h2 class="requests"><label id="requests2">2</label>Connection Requests</h2>
+                    <div class="right-bottom-half">
+                        <div class="connections">
+                            <img class="person" src="./anne-s.jpg" alt="New Friends"><span>Todd E</span>
+                        </div>
+                        <div class="requestor">
+                            <img class="approve-button" src="./accept-circle.png" alt="Approve">
+                            <img class="deny-button" src="./close-circle.png" alt="Deny">
+                        </div>
+                    </div>
+                    <div class="right-bottom-half">
+                        <div class="connections">
+                            <img class="person" src="./anne-s.jpg" alt="New Friends"><span>Bill K</span>
+                        </div>
+                        <div class="requestor">
+                            <img class="approve-button" src="./accept-circle.png" alt="Approve">
+                            <img class="deny-button" src="./close-circle.png" alt="Deny">
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <h2 class="requests"><label class="friends-num">500+</label>Your Connections</h2>
+                    <div class="alignment">
+                        <div class="current-friends">
+                            <img class="person" src="./anne-s.jpg" alt="New Friends"><span>Adriene D</span>
+                        </div>
+                        <div class="current-friends">
+                            <img class="person" src="./anne-s.jpg" alt="New Friends"><span>Anne J</span>
+                        </div>
+                        <div class="current-friends">
+                            <img class="person" src="./anne-s.jpg" alt="New Friends"><span>Ayline T</span>
+                        </div>
+                        <div class="current-friends">
+                            <img class="person" src="./anne-s.jpg" alt="New Friends"><span>Arry Y</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,38 @@
+.container {
+    background-color: rgb(216, 221, 229);
+    width: 900px;
+    padding: 15px;
+    
+
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 51, 66);
+
+}
+img {
+  height: 200px;
+  margin: 15px;
+
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(80, 177, 233);
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(230, 150, 222);
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(253, 253, 253);
+}

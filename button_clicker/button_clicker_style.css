@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topnav {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background-color: lightgrey;
+}
+
+.topnav button {
+    color: white;
+    background-color: navy;
+    border-style: solid;
+    border-color: black;
+    width: 60px;
+    box-shadow: 3px 3px 3px black
+}
+
+.bothsides {
+    display: flex;
+}
+
+/* LEFT BOXES */
+.upperleftbox {
+    width: 400px;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    margin-top: 75px;
+    margin-left: 75px;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+.upperleftbox button {
+    background-color: yellow;
+    padding: 5px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px;
+}
+
+.nounone, .italicninja {
+    font-style: italic;
+}
+
+.aligned {
+    display: inline-flex;
+
+}.upperleftbox {
+    display: flex;
+}
+
+.defone {
+    margin-left: 20px;
+    margin-top: 50px;
+    line-height: 1;
+}
+
+/* RIGHT BOX */
+
+.rightside {
+    width: 300px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 75px;
+    margin-left: 75px;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+
+.rightside button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(46, 182, 71);
+    border-style: solid;
+    border-color: black;
+    width: 150px;
+    box-shadow: 3px 3px 3px black;
+    margin-top: 30px;
+    font-size: 18px;
+}

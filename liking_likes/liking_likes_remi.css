@@ -1,0 +1,116 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.topbar {
+    background-color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: auto;
+    height: 100px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.feed {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.profilebox {
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 22px;
+    margin-left: 60px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.profilebox img {
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    margin:auto
+}
+
+.username {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.avatar {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    /* text-align: center;
+    margin-left: 30px;
+    margin-top: 50px */
+}
+
+.bothsides {
+    display: flex;
+    margin-top: 0;
+    gap: 20px;
+    justify-content: center;
+}
+
+.rightside {
+    margin-top: 0px;
+    height: 100%;
+}
+
+.upperrightitems {
+    display: flex;
+    align-items: center;
+}
+
+.leftside {
+    margin-left: 30px;
+    margin-top: 0px;
+    
+}
+
+.box {
+    margin-bottom: 25px;
+    width: 500px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 30px;
+}
+
+.topofbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.likes .likestwo {
+    text-align: right;
+    margin-left: 120px;
+}
+
+button {   
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 3px 3px 3px black;
+    background-color: rgb(220, 185, 31);
+    width: 70px;
+    height: 30px;
+    font-size: larger;
+    margin-left: 30px;
+}
